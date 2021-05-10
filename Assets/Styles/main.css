@@ -1,0 +1,128 @@
+/*
+   Young Notes Base Style Sheet
+   
+   Author:    Amira Kokan, Kartikkumar Patel
+	  Date:      4/29/2021
+	  
+	  Filename:         main.css
+	  Supporting files: none
+   
+*/
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header,
+section, nav {
+	display: block;
+}
+html {
+	background-color:rgb(0, 204, 153);
+  }
+
+
+#cat_gif {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+  }
+/* Set the default page element styles */
+body {
+	margin: 0px auto;
+	width: 800px;
+}
+
+body* {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+/* Navigation links */
+nav ul {
+	list-style:none;
+	margin-top: 5px;
+	background-color: rgb(0, 204, 153);
+}
+nav li {
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(0, 204, 153);
+	margin: 5px 2px 15px 2px;
+}
+nav li a {
+	display: block;
+	color:black;
+	text-decoration:none;
+	background-color:rgb(0, 204, 153);
+}
+nav li a:hover {
+	color: rgb(0, 204, 153);
+	background-color: black;
+}
+
+/* h1, h2, p */
+h1 {
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	color: black;
+	margin-top: 15px;
+	text-align: center;
+}
+h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	color: black;
+	margin-top: 5px;
+}
+p {
+	margin: 7px;
+}
+#main {
+	border-top: 2px solid rgb(0, 204, 153);
+}
+#main ul {
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#main ul li {
+	margin-bottom: 10px;
+}
+#main ul li strong {
+	font-weight: normal;
+	color: rgb(0, 204, 153);
+}
+footer {
+	border-top: 2px solid rgb(0, 204, 153);
+	clear:both;
+	float: left;
+	width: 100%;
+}
+address {
+	font-style: normal;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+/* image styles */
+img.irregularWap {
+	clear: right;
+	float: right;
+	margin: 0px;
+}

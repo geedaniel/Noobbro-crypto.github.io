@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!--
+   
+      Final Website
+	  Author:    Amira Kokan, Kartikkumar Patel
+	  Date:      4/29/2021
+	  
+	  Filename:         contact.html
+	  Supporting files: CatHeader.jpg, main.css
+   -->
+   
+      <meta charset="UTF-8" />
+	  
+	  <title>Interested In Adopting?</title>
+	  <link href="Assets/Styles/contact_styles.css" rel="stylesheet" type="text/css" />
+	  <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+	  
+   </head>
+   
+   <body>
+	  
+	  <header>
+	     <img src="Assets/Images/CatHeader.jpg" alt="Kitties Galore" />
+	  </header>
+	  
+	  <nav class="horizontal">
+	     <ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="cats.html">Meet The Cats</a></li>
+			<li><a href="facts.html">Cat Facts</a></li>
+			<li><a href="contact.html">Interested In Adopting?</a></li>
+		 </ul>
+	  </nav>
+	  
+	  <section id="main">
+	  
+	     <h1>Interested In Adopting?</h1>
+		 
+		 <form name="interestForm" id="interestForm"
+			   method="post">
+			<fieldset id="contactFields">
+			   <legend></legend>
+			   
+			   <label for="fName">First Name</label>
+			   <input type="text" id="fName" name="fName" required="required">
+			   
+			   <label for="lName">Last Name</label>
+			   <input type="text" id="lName" name="lName" required="required">
+			   
+			   <label for="address">Address</label>
+			   <input type="text" id="address" name="address" required="required">
+			   
+			   <label for="city">City</label>
+			   <input type="text" id="city" name="city" required="required">
+			   
+			   <label for="state">State</label>
+			   <input type="text" id="state" name="state" required="required" value="Missouri">
+			   
+			   <label for="zip">Postal Code</label>
+			   <input type="text" id="zip" name="zip" placeholder="123456"
+					  pattern="^\d{5}(\-\d{4})?$">
+			   
+			   <label for="phone">Phone</label>
+			   <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890"
+			          required="required"
+					  pattern="^\d{10}$|^(\(\d{3}\)s*)?\d{3}[\s-]?\d{4}$">
+			   
+			   <label for="email">Email</label>
+			   <input type="email" id="email" name="email">
+			</fieldset>
+			<input type="submit" value="Submit Information">
+			<input type="reset" value="Cancel">
+		 </form>
+	  </section>
+	  
+	   <footer>
+	     <address>
+		    Kitties Galore &#183;
+			413 West Pawvenue &183;
+			Whiskerwood MO 34286 &#183;
+			(314) 777 - 7777;
+		 </address>
+	  </footer>
+	  
+   </body>
+   
+</html>

@@ -1,0 +1,65 @@
+/*
+   Young Notes Base Style Sheet
+   
+   Author:    Amira Kokan, Kartikkumar Patel
+	  Date:      4/29/2021
+	  
+	  Filename:  contact_styles.css
+	  Supporting files: none
+   
+*/
+/* Fieldset styles */
+fieldset {
+    background-color: rgb(0, 204, 153);
+    border: 1px solid rgb(0, 204, 153);
+    float: left;
+    margin: 10px 0px 10px 2.5%;
+    width: 96%;
+  }
+  
+  /* Label styles */
+  label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 1em;
+    margin: 7px 4% 7px 5px;
+    width: 40%;
+  }
+  
+
+  /* Input control styles */
+  input {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+    width: 50%;
+  }
+  
+  /* Selection list styles */
+  select {
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0px;
+  }
+  
+  /* Button styles */
+  input[type="submit"] {
+    clear:left;
+  }
+  input[type="submit"], input[type="reset"] {
+    height: 40px;
+    margin-right: 20px;
+    width: 200px;
+    color: black;
+    background-color: rgb(0, 204, 153);
+    
+  }
+  
+  /* Validation stylels */
+  input:focus, select:focus {
+    background-color:rgb(0, 204, 153);
+    color: black;
+  }
